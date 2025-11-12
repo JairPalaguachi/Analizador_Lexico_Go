@@ -264,9 +264,11 @@ def generate_log(source_filename):
     # Obtener información del usuario de git
     git_user = get_git_username()
     
-    # Generar nombre del archivo de log
+    # Generar nombre del archivo de log (con segundos y microsegundos)
     now = datetime.now()
-    log_filename = f"logs/lexico-{git_user}-{now.strftime('%d-%m-%Y-%Hh%M')}.txt"
+    base = os.path.splitext(os.path.basename(source_filename))[0]
+    timestamp = now.strftime('%d-%m-%Y-%Hh%M%S-%f')
+    log_filename = f"logs/lexico-{git_user}-{base}-{timestamp}.txt"
     
     # Escribir el log
     with open(log_filename, 'w', encoding='utf-8') as log_file:
