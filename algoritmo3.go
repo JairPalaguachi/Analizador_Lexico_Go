@@ -123,3 +123,16 @@ func main() {
     fmt.Println("Desplazamiento izq:", a << 2)  // 110000 = 48
     fmt.Println("Desplazamiento der:", a >> 2)  // 0011 = 3
 }
+
+// Función simple de suma
+func sumar(a int, b int) int {
+    return a + b
+}
+
+// Función con múltiples retornos (incluyendo error)
+func dividir(a float64, b float64) (float64, error) {
+    if b == 0.0 {
+        return 0.0, errors.New("división por cero no permitida")
+    }
+    return a / b, nil
+}
