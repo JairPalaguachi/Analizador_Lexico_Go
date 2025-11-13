@@ -1,0 +1,1054 @@
+================================================================================
+ANÁLISIS LÉXICO - LENGUAJE GO
+================================================================================
+Archivo analizado: algoritmo1.go
+Fecha y hora: 12/11/2025 21:22:07
+Usuario: SKEIILAT
+================================================================================
+
+TOKENS RECONOCIDOS (143)
+--------------------------------------------------------------------------------
+Token: LPAREN               | Valor: (                              | Línea:    9 | Columna:   10
+Token: RPAREN               | Valor: )                              | Línea:    9 | Columna:   11
+Token: LBRACE               | Valor: {                              | Línea:    9 | Columna:   13
+Token: ASSIGN               | Valor: =                              | Línea:   12 | Columna:   18
+Token: ASSIGN               | Valor: =                              | Línea:   13 | Columna:   24
+Token: DOT                  | Valor: .                              | Línea:   13 | Columna:   28
+Token: ASSIGN               | Valor: =                              | Línea:   14 | Columna:   21
+Token: ASSIGN               | Valor: =                              | Línea:   17 | Columna:   16
+Token: ASSIGN               | Valor: =                              | Línea:   18 | Columna:   21
+Token: DOT                  | Valor: .                              | Línea:   18 | Columna:   25
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   21 | Columna:   14
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   22 | Columna:   13
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   23 | Columna:   15
+Token: LPAREN               | Valor: (                              | Línea:   23 | Columna:   26
+Token: COMMA                | Valor: ,                              | Línea:   23 | Columna:   29
+Token: RPAREN               | Valor: )                              | Línea:   23 | Columna:   33
+Token: COMMA                | Valor: ,                              | Línea:   26 | Columna:   10
+Token: COMMA                | Valor: ,                              | Línea:   26 | Columna:   13
+Token: COMMA                | Valor: ,                              | Línea:   27 | Columna:    6
+Token: COMMA                | Valor: ,                              | Línea:   27 | Columna:    9
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   27 | Columna:   13
+Token: COMMA                | Valor: ,                              | Línea:   27 | Columna:   17
+Token: COMMA                | Valor: ,                              | Línea:   27 | Columna:   20
+Token: LPAREN               | Valor: (                              | Línea:   30 | Columna:    9
+Token: ASSIGN               | Valor: =                              | Línea:   31 | Columna:   32
+Token: ASSIGN               | Valor: =                              | Línea:   32 | Columna:   20
+Token: ASSIGN               | Valor: =                              | Línea:   33 | Columna:   25
+Token: RPAREN               | Valor: )                              | Línea:   34 | Columna:    5
+Token: ASSIGN               | Valor: =                              | Línea:   37 | Columna:   14
+Token: DOT                  | Valor: .                              | Línea:   37 | Columna:   17
+Token: ASSIGN               | Valor: =                              | Línea:   38 | Columna:   24
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   41 | Columna:   10
+Token: PLUS                 | Valor: +                              | Línea:   41 | Columna:   15
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   42 | Columna:   11
+Token: MINUS                | Valor: -                              | Línea:   42 | Columna:   16
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   43 | Columna:   20
+Token: TIMES                | Valor: *                              | Línea:   43 | Columna:   25
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   44 | Columna:   14
+Token: DIVIDE               | Valor: /                              | Línea:   44 | Columna:   22
+Token: DECLARE_ASSIGN       | Valor: :=                             | Línea:   45 | Columna:   12
+Token: MOD                  | Valor: %                              | Línea:   45 | Columna:   20
+Token: INCREMENT            | Valor: ++                             | Línea:   48 | Columna:   13
+Token: DECREMENT            | Valor: --                             | Línea:   49 | Columna:    9
+Token: DOT                  | Valor: .                              | Línea:   52 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   52 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   52 | Columna:   24
+Token: COMMA                | Valor: ,                              | Línea:   52 | Columna:   26
+Token: RPAREN               | Valor: )                              | Línea:   52 | Columna:   34
+Token: DOT                  | Valor: .                              | Línea:   53 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   53 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   53 | Columna:   22
+Token: COMMA                | Valor: ,                              | Línea:   53 | Columna:   24
+Token: RPAREN               | Valor: )                              | Línea:   53 | Columna:   30
+Token: DOT                  | Valor: .                              | Línea:   54 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   54 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   54 | Columna:   24
+Token: COMMA                | Valor: ,                              | Línea:   54 | Columna:   26
+Token: RPAREN               | Valor: )                              | Línea:   54 | Columna:   34
+Token: DOT                  | Valor: .                              | Línea:   55 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   55 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   55 | Columna:   24
+Token: COMMA                | Valor: ,                              | Línea:   55 | Columna:   26
+Token: RPAREN               | Valor: )                              | Línea:   55 | Columna:   34
+Token: DOT                  | Valor: .                              | Línea:   56 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   56 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   56 | Columna:   24
+Token: COMMA                | Valor: ,                              | Línea:   56 | Columna:   26
+Token: RPAREN               | Valor: )                              | Línea:   56 | Columna:   34
+Token: DOT                  | Valor: .                              | Línea:   57 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   57 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   57 | Columna:   29
+Token: COMMA                | Valor: ,                              | Línea:   57 | Columna:   31
+Token: RPAREN               | Valor: )                              | Línea:   57 | Columna:   44
+Token: DOT                  | Valor: .                              | Línea:   58 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   58 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   58 | Columna:   26
+Token: COMMA                | Valor: ,                              | Línea:   58 | Columna:   28
+Token: RPAREN               | Valor: )                              | Línea:   58 | Columna:   38
+Token: DOT                  | Valor: .                              | Línea:   59 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   59 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   59 | Columna:   25
+Token: COMMA                | Valor: ,                              | Línea:   59 | Columna:   27
+Token: RPAREN               | Valor: )                              | Línea:   59 | Columna:   36
+Token: DOT                  | Valor: .                              | Línea:   60 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   60 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   60 | Columna:   27
+Token: COMMA                | Valor: ,                              | Línea:   60 | Columna:   29
+Token: RPAREN               | Valor: )                              | Línea:   60 | Columna:   40
+Token: DOT                  | Valor: .                              | Línea:   61 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   61 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   61 | Columna:   37
+Token: COMMA                | Valor: ,                              | Línea:   61 | Columna:   39
+Token: COMMA                | Valor: ,                              | Línea:   61 | Columna:   42
+Token: COMMA                | Valor: ,                              | Línea:   61 | Columna:   45
+Token: RPAREN               | Valor: )                              | Línea:   61 | Columna:   48
+Token: DOT                  | Valor: .                              | Línea:   62 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   62 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   62 | Columna:   35
+Token: COMMA                | Valor: ,                              | Línea:   62 | Columna:   37
+Token: COMMA                | Valor: ,                              | Línea:   62 | Columna:   40
+Token: COMMA                | Valor: ,                              | Línea:   62 | Columna:   43
+Token: RPAREN               | Valor: )                              | Línea:   62 | Columna:   46
+Token: DOT                  | Valor: .                              | Línea:   63 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   63 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   63 | Columna:   33
+Token: COMMA                | Valor: ,                              | Línea:   63 | Columna:   35
+Token: RPAREN               | Valor: )                              | Línea:   63 | Columna:   52
+Token: DOT                  | Valor: .                              | Línea:   64 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   64 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   64 | Columna:   24
+Token: COMMA                | Valor: ,                              | Línea:   64 | Columna:   26
+Token: RPAREN               | Valor: )                              | Línea:   64 | Columna:   34
+Token: DOT                  | Valor: .                              | Línea:   65 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   65 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   65 | Columna:   28
+Token: COMMA                | Valor: ,                              | Línea:   65 | Columna:   30
+Token: RPAREN               | Valor: )                              | Línea:   65 | Columna:   42
+Token: DOT                  | Valor: .                              | Línea:   66 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   66 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   66 | Columna:   20
+Token: COMMA                | Valor: ,                              | Línea:   66 | Columna:   22
+Token: RPAREN               | Valor: )                              | Línea:   66 | Columna:   26
+Token: DOT                  | Valor: .                              | Línea:   67 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   67 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   67 | Columna:   30
+Token: COMMA                | Valor: ,                              | Línea:   67 | Columna:   32
+Token: RPAREN               | Valor: )                              | Línea:   67 | Columna:   46
+Token: DOT                  | Valor: .                              | Línea:   68 | Columna:    8
+Token: LPAREN               | Valor: (                              | Línea:   68 | Columna:   16
+Token: COLON                | Valor: :                              | Línea:   68 | Columna:   29
+Token: COMMA                | Valor: ,                              | Línea:   68 | Columna:   31
+Token: COMMA                | Valor: ,                              | Línea:   68 | Columna:   37
+Token: COMMA                | Valor: ,                              | Línea:   68 | Columna:   44
+Token: COMMA                | Valor: ,                              | Línea:   68 | Columna:   60
+Token: COMMA                | Valor: ,                              | Línea:   68 | Columna:   70
+Token: RPAREN               | Valor: )                              | Línea:   68 | Columna:   78
+Token: RBRACE               | Valor: }                              | Línea:   69 | Columna:    1
+Token: LPAREN               | Valor: (                              | Línea:   71 | Columna:   14
+Token: COMMA                | Valor: ,                              | Línea:   71 | Columna:   20
+Token: RPAREN               | Valor: )                              | Línea:   71 | Columna:   27
+Token: LBRACE               | Valor: {                              | Línea:   71 | Columna:   33
+Token: PLUS                 | Valor: +                              | Línea:   72 | Columna:   14
+Token: RBRACE               | Valor: }                              | Línea:   73 | Columna:    1
+
+================================================================================
+ERRORES LÉXICOS (893)
+--------------------------------------------------------------------------------
+Carácter ilegal 'p' en línea 5, columna 1
+Carácter ilegal 'a' en línea 5, columna 2
+Carácter ilegal 'c' en línea 5, columna 3
+Carácter ilegal 'k' en línea 5, columna 4
+Carácter ilegal 'a' en línea 5, columna 5
+Carácter ilegal 'g' en línea 5, columna 6
+Carácter ilegal 'e' en línea 5, columna 7
+Carácter ilegal 'm' en línea 5, columna 9
+Carácter ilegal 'a' en línea 5, columna 10
+Carácter ilegal 'i' en línea 5, columna 11
+Carácter ilegal 'n' en línea 5, columna 12
+Carácter ilegal 'i' en línea 7, columna 1
+Carácter ilegal 'm' en línea 7, columna 2
+Carácter ilegal 'p' en línea 7, columna 3
+Carácter ilegal 'o' en línea 7, columna 4
+Carácter ilegal 'r' en línea 7, columna 5
+Carácter ilegal 't' en línea 7, columna 6
+Carácter ilegal '"' en línea 7, columna 8
+Carácter ilegal 'f' en línea 7, columna 9
+Carácter ilegal 'm' en línea 7, columna 10
+Carácter ilegal 't' en línea 7, columna 11
+Carácter ilegal '"' en línea 7, columna 12
+Carácter ilegal 'f' en línea 9, columna 1
+Carácter ilegal 'u' en línea 9, columna 2
+Carácter ilegal 'n' en línea 9, columna 3
+Carácter ilegal 'c' en línea 9, columna 4
+Carácter ilegal 'm' en línea 9, columna 6
+Carácter ilegal 'a' en línea 9, columna 7
+Carácter ilegal 'i' en línea 9, columna 8
+Carácter ilegal 'n' en línea 9, columna 9
+Carácter ilegal 'v' en línea 11, columna 5
+Carácter ilegal 'a' en línea 11, columna 6
+Carácter ilegal 'r' en línea 11, columna 7
+Carácter ilegal 'n' en línea 11, columna 9
+Carácter ilegal 'o' en línea 11, columna 10
+Carácter ilegal 'm' en línea 11, columna 11
+Carácter ilegal 'b' en línea 11, columna 12
+Carácter ilegal 'r' en línea 11, columna 13
+Carácter ilegal 'e' en línea 11, columna 14
+Carácter ilegal 's' en línea 11, columna 16
+Carácter ilegal 't' en línea 11, columna 17
+Carácter ilegal 'r' en línea 11, columna 18
+Carácter ilegal 'i' en línea 11, columna 19
+Carácter ilegal 'n' en línea 11, columna 20
+Carácter ilegal 'g' en línea 11, columna 21
+Carácter ilegal 'v' en línea 12, columna 5
+Carácter ilegal 'a' en línea 12, columna 6
+Carácter ilegal 'r' en línea 12, columna 7
+Carácter ilegal 'e' en línea 12, columna 9
+Carácter ilegal 'd' en línea 12, columna 10
+Carácter ilegal 'a' en línea 12, columna 11
+Carácter ilegal 'd' en línea 12, columna 12
+Carácter ilegal 'i' en línea 12, columna 14
+Carácter ilegal 'n' en línea 12, columna 15
+Carácter ilegal 't' en línea 12, columna 16
+Carácter ilegal '2' en línea 12, columna 20
+Carácter ilegal '5' en línea 12, columna 21
+Carácter ilegal 'v' en línea 13, columna 5
+Carácter ilegal 'a' en línea 13, columna 6
+Carácter ilegal 'r' en línea 13, columna 7
+Carácter ilegal 'p' en línea 13, columna 9
+Carácter ilegal 'r' en línea 13, columna 10
+Carácter ilegal 'e' en línea 13, columna 11
+Carácter ilegal 'c' en línea 13, columna 12
+Carácter ilegal 'i' en línea 13, columna 13
+Carácter ilegal 'o' en línea 13, columna 14
+Carácter ilegal 'f' en línea 13, columna 16
+Carácter ilegal 'l' en línea 13, columna 17
+Carácter ilegal 'o' en línea 13, columna 18
+Carácter ilegal 'a' en línea 13, columna 19
+Carácter ilegal 't' en línea 13, columna 20
+Carácter ilegal '6' en línea 13, columna 21
+Carácter ilegal '4' en línea 13, columna 22
+Carácter ilegal '1' en línea 13, columna 26
+Carácter ilegal '9' en línea 13, columna 27
+Carácter ilegal '9' en línea 13, columna 29
+Carácter ilegal '9' en línea 13, columna 30
+Carácter ilegal 'v' en línea 14, columna 5
+Carácter ilegal 'a' en línea 14, columna 6
+Carácter ilegal 'r' en línea 14, columna 7
+Carácter ilegal 'a' en línea 14, columna 9
+Carácter ilegal 'c' en línea 14, columna 10
+Carácter ilegal 't' en línea 14, columna 11
+Carácter ilegal 'i' en línea 14, columna 12
+Carácter ilegal 'v' en línea 14, columna 13
+Carácter ilegal 'o' en línea 14, columna 14
+Carácter ilegal 'b' en línea 14, columna 16
+Carácter ilegal 'o' en línea 14, columna 17
+Carácter ilegal 'o' en línea 14, columna 18
+Carácter ilegal 'l' en línea 14, columna 19
+Carácter ilegal 't' en línea 14, columna 23
+Carácter ilegal 'r' en línea 14, columna 24
+Carácter ilegal 'u' en línea 14, columna 25
+Carácter ilegal 'e' en línea 14, columna 26
+Carácter ilegal 'v' en línea 17, columna 5
+Carácter ilegal 'a' en línea 17, columna 6
+Carácter ilegal 'r' en línea 17, columna 7
+Carácter ilegal 'c' en línea 17, columna 9
+Carácter ilegal 'i' en línea 17, columna 10
+Carácter ilegal 'u' en línea 17, columna 11
+Carácter ilegal 'd' en línea 17, columna 12
+Carácter ilegal 'a' en línea 17, columna 13
+Carácter ilegal 'd' en línea 17, columna 14
+Carácter ilegal '"' en línea 17, columna 18
+Carácter ilegal 'Q' en línea 17, columna 19
+Carácter ilegal 'u' en línea 17, columna 20
+Carácter ilegal 'i' en línea 17, columna 21
+Carácter ilegal 't' en línea 17, columna 22
+Carácter ilegal 'o' en línea 17, columna 23
+Carácter ilegal '"' en línea 17, columna 24
+Carácter ilegal 'v' en línea 18, columna 5
+Carácter ilegal 'a' en línea 18, columna 6
+Carácter ilegal 'r' en línea 18, columna 7
+Carácter ilegal 't' en línea 18, columna 9
+Carácter ilegal 'e' en línea 18, columna 10
+Carácter ilegal 'm' en línea 18, columna 11
+Carácter ilegal 'p' en línea 18, columna 12
+Carácter ilegal 'e' en línea 18, columna 13
+Carácter ilegal 'r' en línea 18, columna 14
+Carácter ilegal 'a' en línea 18, columna 15
+Carácter ilegal 't' en línea 18, columna 16
+Carácter ilegal 'u' en línea 18, columna 17
+Carácter ilegal 'r' en línea 18, columna 18
+Carácter ilegal 'a' en línea 18, columna 19
+Carácter ilegal '1' en línea 18, columna 23
+Carácter ilegal '8' en línea 18, columna 24
+Carácter ilegal '5' en línea 18, columna 26
+Carácter ilegal 'c' en línea 21, columna 5
+Carácter ilegal 'o' en línea 21, columna 6
+Carácter ilegal 'n' en línea 21, columna 7
+Carácter ilegal 't' en línea 21, columna 8
+Carácter ilegal 'a' en línea 21, columna 9
+Carácter ilegal 'd' en línea 21, columna 10
+Carácter ilegal 'o' en línea 21, columna 11
+Carácter ilegal 'r' en línea 21, columna 12
+Carácter ilegal '0' en línea 21, columna 17
+Carácter ilegal 'm' en línea 22, columna 5
+Carácter ilegal 'e' en línea 22, columna 6
+Carácter ilegal 'n' en línea 22, columna 7
+Carácter ilegal 's' en línea 22, columna 8
+Carácter ilegal 'a' en línea 22, columna 9
+Carácter ilegal 'j' en línea 22, columna 10
+Carácter ilegal 'e' en línea 22, columna 11
+Carácter ilegal '"' en línea 22, columna 16
+Carácter ilegal 'H' en línea 22, columna 17
+Carácter ilegal 'o' en línea 22, columna 18
+Carácter ilegal 'l' en línea 22, columna 19
+Carácter ilegal 'a' en línea 22, columna 20
+Carácter ilegal 'M' en línea 22, columna 22
+Carácter ilegal 'u' en línea 22, columna 23
+Carácter ilegal 'n' en línea 22, columna 24
+Carácter ilegal 'd' en línea 22, columna 25
+Carácter ilegal 'o' en línea 22, columna 26
+Carácter ilegal '"' en línea 22, columna 27
+Carácter ilegal 'r' en línea 23, columna 5
+Carácter ilegal 'e' en línea 23, columna 6
+Carácter ilegal 's' en línea 23, columna 7
+Carácter ilegal 'u' en línea 23, columna 8
+Carácter ilegal 'l' en línea 23, columna 9
+Carácter ilegal 't' en línea 23, columna 10
+Carácter ilegal 'a' en línea 23, columna 11
+Carácter ilegal 'd' en línea 23, columna 12
+Carácter ilegal 'o' en línea 23, columna 13
+Carácter ilegal 'c' en línea 23, columna 18
+Carácter ilegal 'a' en línea 23, columna 19
+Carácter ilegal 'l' en línea 23, columna 20
+Carácter ilegal 'c' en línea 23, columna 21
+Carácter ilegal 'u' en línea 23, columna 22
+Carácter ilegal 'l' en línea 23, columna 23
+Carácter ilegal 'a' en línea 23, columna 24
+Carácter ilegal 'r' en línea 23, columna 25
+Carácter ilegal '1' en línea 23, columna 27
+Carácter ilegal '0' en línea 23, columna 28
+Carácter ilegal '2' en línea 23, columna 31
+Carácter ilegal '0' en línea 23, columna 32
+Carácter ilegal 'v' en línea 26, columna 5
+Carácter ilegal 'a' en línea 26, columna 6
+Carácter ilegal 'r' en línea 26, columna 7
+Carácter ilegal 'x' en línea 26, columna 9
+Carácter ilegal 'y' en línea 26, columna 12
+Carácter ilegal 'z' en línea 26, columna 15
+Carácter ilegal 'i' en línea 26, columna 17
+Carácter ilegal 'n' en línea 26, columna 18
+Carácter ilegal 't' en línea 26, columna 19
+Carácter ilegal 'a' en línea 27, columna 5
+Carácter ilegal 'b' en línea 27, columna 8
+Carácter ilegal 'c' en línea 27, columna 11
+Carácter ilegal '1' en línea 27, columna 16
+Carácter ilegal '2' en línea 27, columna 19
+Carácter ilegal '3' en línea 27, columna 22
+Carácter ilegal 'v' en línea 30, columna 5
+Carácter ilegal 'a' en línea 30, columna 6
+Carácter ilegal 'r' en línea 30, columna 7
+Carácter ilegal 'n' en línea 31, columna 9
+Carácter ilegal 'o' en línea 31, columna 10
+Carácter ilegal 'm' en línea 31, columna 11
+Carácter ilegal 'b' en línea 31, columna 12
+Carácter ilegal 'r' en línea 31, columna 13
+Carácter ilegal 'e' en línea 31, columna 14
+Carácter ilegal '_' en línea 31, columna 15
+Carácter ilegal 'c' en línea 31, columna 16
+Carácter ilegal 'o' en línea 31, columna 17
+Carácter ilegal 'm' en línea 31, columna 18
+Carácter ilegal 'p' en línea 31, columna 19
+Carácter ilegal 'l' en línea 31, columna 20
+Carácter ilegal 'e' en línea 31, columna 21
+Carácter ilegal 't' en línea 31, columna 22
+Carácter ilegal 'o' en línea 31, columna 23
+Carácter ilegal 's' en línea 31, columna 25
+Carácter ilegal 't' en línea 31, columna 26
+Carácter ilegal 'r' en línea 31, columna 27
+Carácter ilegal 'i' en línea 31, columna 28
+Carácter ilegal 'n' en línea 31, columna 29
+Carácter ilegal 'g' en línea 31, columna 30
+Carácter ilegal '"' en línea 31, columna 34
+Carácter ilegal 'J' en línea 31, columna 35
+Carácter ilegal 'u' en línea 31, columna 36
+Carácter ilegal 'a' en línea 31, columna 37
+Carácter ilegal 'n' en línea 31, columna 38
+Carácter ilegal 'P' en línea 31, columna 40
+Carácter ilegal 'é' en línea 31, columna 41
+Carácter ilegal 'r' en línea 31, columna 42
+Carácter ilegal 'e' en línea 31, columna 43
+Carácter ilegal 'z' en línea 31, columna 44
+Carácter ilegal '"' en línea 31, columna 45
+Carácter ilegal 'c' en línea 32, columna 9
+Carácter ilegal 'o' en línea 32, columna 10
+Carácter ilegal 'd' en línea 32, columna 11
+Carácter ilegal 'i' en línea 32, columna 12
+Carácter ilegal 'g' en línea 32, columna 13
+Carácter ilegal 'o' en línea 32, columna 14
+Carácter ilegal 'i' en línea 32, columna 16
+Carácter ilegal 'n' en línea 32, columna 17
+Carácter ilegal 't' en línea 32, columna 18
+Carácter ilegal '1' en línea 32, columna 22
+Carácter ilegal '2' en línea 32, columna 23
+Carácter ilegal '3' en línea 32, columna 24
+Carácter ilegal '4' en línea 32, columna 25
+Carácter ilegal '5' en línea 32, columna 26
+Carácter ilegal 'h' en línea 33, columna 9
+Carácter ilegal 'a' en línea 33, columna 10
+Carácter ilegal 'b' en línea 33, columna 11
+Carácter ilegal 'i' en línea 33, columna 12
+Carácter ilegal 'l' en línea 33, columna 13
+Carácter ilegal 'i' en línea 33, columna 14
+Carácter ilegal 't' en línea 33, columna 15
+Carácter ilegal 'a' en línea 33, columna 16
+Carácter ilegal 'd' en línea 33, columna 17
+Carácter ilegal 'o' en línea 33, columna 18
+Carácter ilegal 'b' en línea 33, columna 20
+Carácter ilegal 'o' en línea 33, columna 21
+Carácter ilegal 'o' en línea 33, columna 22
+Carácter ilegal 'l' en línea 33, columna 23
+Carácter ilegal 't' en línea 33, columna 27
+Carácter ilegal 'r' en línea 33, columna 28
+Carácter ilegal 'u' en línea 33, columna 29
+Carácter ilegal 'e' en línea 33, columna 30
+Carácter ilegal 'c' en línea 37, columna 5
+Carácter ilegal 'o' en línea 37, columna 6
+Carácter ilegal 'n' en línea 37, columna 7
+Carácter ilegal 's' en línea 37, columna 8
+Carácter ilegal 't' en línea 37, columna 9
+Carácter ilegal 'P' en línea 37, columna 11
+Carácter ilegal 'I' en línea 37, columna 12
+Carácter ilegal '3' en línea 37, columna 16
+Carácter ilegal '1' en línea 37, columna 18
+Carácter ilegal '4' en línea 37, columna 19
+Carácter ilegal '1' en línea 37, columna 20
+Carácter ilegal '5' en línea 37, columna 21
+Carácter ilegal '9' en línea 37, columna 22
+Carácter ilegal 'c' en línea 38, columna 5
+Carácter ilegal 'o' en línea 38, columna 6
+Carácter ilegal 'n' en línea 38, columna 7
+Carácter ilegal 's' en línea 38, columna 8
+Carácter ilegal 't' en línea 38, columna 9
+Carácter ilegal 'M' en línea 38, columna 11
+Carácter ilegal 'A' en línea 38, columna 12
+Carácter ilegal 'X' en línea 38, columna 13
+Carácter ilegal '_' en línea 38, columna 14
+Carácter ilegal 'U' en línea 38, columna 15
+Carácter ilegal 'S' en línea 38, columna 16
+Carácter ilegal 'U' en línea 38, columna 17
+Carácter ilegal 'A' en línea 38, columna 18
+Carácter ilegal 'R' en línea 38, columna 19
+Carácter ilegal 'I' en línea 38, columna 20
+Carácter ilegal 'O' en línea 38, columna 21
+Carácter ilegal 'S' en línea 38, columna 22
+Carácter ilegal '1' en línea 38, columna 26
+Carácter ilegal '0' en línea 38, columna 27
+Carácter ilegal '0' en línea 38, columna 28
+Carácter ilegal 's' en línea 41, columna 5
+Carácter ilegal 'u' en línea 41, columna 6
+Carácter ilegal 'm' en línea 41, columna 7
+Carácter ilegal 'a' en línea 41, columna 8
+Carácter ilegal 'a' en línea 41, columna 13
+Carácter ilegal 'b' en línea 41, columna 17
+Carácter ilegal 'r' en línea 42, columna 5
+Carácter ilegal 'e' en línea 42, columna 6
+Carácter ilegal 's' en línea 42, columna 7
+Carácter ilegal 't' en línea 42, columna 8
+Carácter ilegal 'a' en línea 42, columna 9
+Carácter ilegal 'c' en línea 42, columna 14
+Carácter ilegal 'a' en línea 42, columna 18
+Carácter ilegal 'm' en línea 43, columna 5
+Carácter ilegal 'u' en línea 43, columna 6
+Carácter ilegal 'l' en línea 43, columna 7
+Carácter ilegal 't' en línea 43, columna 8
+Carácter ilegal 'i' en línea 43, columna 9
+Carácter ilegal 'p' en línea 43, columna 10
+Carácter ilegal 'l' en línea 43, columna 11
+Carácter ilegal 'i' en línea 43, columna 12
+Carácter ilegal 'c' en línea 43, columna 13
+Carácter ilegal 'a' en línea 43, columna 14
+Carácter ilegal 'c' en línea 43, columna 15
+Carácter ilegal 'i' en línea 43, columna 16
+Carácter ilegal 'o' en línea 43, columna 17
+Carácter ilegal 'n' en línea 43, columna 18
+Carácter ilegal 'b' en línea 43, columna 23
+Carácter ilegal 'c' en línea 43, columna 27
+Carácter ilegal 'd' en línea 44, columna 5
+Carácter ilegal 'i' en línea 44, columna 6
+Carácter ilegal 'v' en línea 44, columna 7
+Carácter ilegal 'i' en línea 44, columna 8
+Carácter ilegal 's' en línea 44, columna 9
+Carácter ilegal 'i' en línea 44, columna 10
+Carácter ilegal 'o' en línea 44, columna 11
+Carácter ilegal 'n' en línea 44, columna 12
+Carácter ilegal 'e' en línea 44, columna 17
+Carácter ilegal 'd' en línea 44, columna 18
+Carácter ilegal 'a' en línea 44, columna 19
+Carácter ilegal 'd' en línea 44, columna 20
+Carácter ilegal '5' en línea 44, columna 24
+Carácter ilegal 'm' en línea 45, columna 5
+Carácter ilegal 'o' en línea 45, columna 6
+Carácter ilegal 'd' en línea 45, columna 7
+Carácter ilegal 'u' en línea 45, columna 8
+Carácter ilegal 'l' en línea 45, columna 9
+Carácter ilegal 'o' en línea 45, columna 10
+Carácter ilegal 'e' en línea 45, columna 15
+Carácter ilegal 'd' en línea 45, columna 16
+Carácter ilegal 'a' en línea 45, columna 17
+Carácter ilegal 'd' en línea 45, columna 18
+Carácter ilegal '7' en línea 45, columna 22
+Carácter ilegal 'c' en línea 48, columna 5
+Carácter ilegal 'o' en línea 48, columna 6
+Carácter ilegal 'n' en línea 48, columna 7
+Carácter ilegal 't' en línea 48, columna 8
+Carácter ilegal 'a' en línea 48, columna 9
+Carácter ilegal 'd' en línea 48, columna 10
+Carácter ilegal 'o' en línea 48, columna 11
+Carácter ilegal 'r' en línea 48, columna 12
+Carácter ilegal 'e' en línea 49, columna 5
+Carácter ilegal 'd' en línea 49, columna 6
+Carácter ilegal 'a' en línea 49, columna 7
+Carácter ilegal 'd' en línea 49, columna 8
+Carácter ilegal 'f' en línea 52, columna 5
+Carácter ilegal 'm' en línea 52, columna 6
+Carácter ilegal 't' en línea 52, columna 7
+Carácter ilegal 'P' en línea 52, columna 9
+Carácter ilegal 'r' en línea 52, columna 10
+Carácter ilegal 'i' en línea 52, columna 11
+Carácter ilegal 'n' en línea 52, columna 12
+Carácter ilegal 't' en línea 52, columna 13
+Carácter ilegal 'l' en línea 52, columna 14
+Carácter ilegal 'n' en línea 52, columna 15
+Carácter ilegal '"' en línea 52, columna 17
+Carácter ilegal 'N' en línea 52, columna 18
+Carácter ilegal 'o' en línea 52, columna 19
+Carácter ilegal 'm' en línea 52, columna 20
+Carácter ilegal 'b' en línea 52, columna 21
+Carácter ilegal 'r' en línea 52, columna 22
+Carácter ilegal 'e' en línea 52, columna 23
+Carácter ilegal '"' en línea 52, columna 25
+Carácter ilegal 'n' en línea 52, columna 28
+Carácter ilegal 'o' en línea 52, columna 29
+Carácter ilegal 'm' en línea 52, columna 30
+Carácter ilegal 'b' en línea 52, columna 31
+Carácter ilegal 'r' en línea 52, columna 32
+Carácter ilegal 'e' en línea 52, columna 33
+Carácter ilegal 'f' en línea 53, columna 5
+Carácter ilegal 'm' en línea 53, columna 6
+Carácter ilegal 't' en línea 53, columna 7
+Carácter ilegal 'P' en línea 53, columna 9
+Carácter ilegal 'r' en línea 53, columna 10
+Carácter ilegal 'i' en línea 53, columna 11
+Carácter ilegal 'n' en línea 53, columna 12
+Carácter ilegal 't' en línea 53, columna 13
+Carácter ilegal 'l' en línea 53, columna 14
+Carácter ilegal 'n' en línea 53, columna 15
+Carácter ilegal '"' en línea 53, columna 17
+Carácter ilegal 'E' en línea 53, columna 18
+Carácter ilegal 'd' en línea 53, columna 19
+Carácter ilegal 'a' en línea 53, columna 20
+Carácter ilegal 'd' en línea 53, columna 21
+Carácter ilegal '"' en línea 53, columna 23
+Carácter ilegal 'e' en línea 53, columna 26
+Carácter ilegal 'd' en línea 53, columna 27
+Carácter ilegal 'a' en línea 53, columna 28
+Carácter ilegal 'd' en línea 53, columna 29
+Carácter ilegal 'f' en línea 54, columna 5
+Carácter ilegal 'm' en línea 54, columna 6
+Carácter ilegal 't' en línea 54, columna 7
+Carácter ilegal 'P' en línea 54, columna 9
+Carácter ilegal 'r' en línea 54, columna 10
+Carácter ilegal 'i' en línea 54, columna 11
+Carácter ilegal 'n' en línea 54, columna 12
+Carácter ilegal 't' en línea 54, columna 13
+Carácter ilegal 'l' en línea 54, columna 14
+Carácter ilegal 'n' en línea 54, columna 15
+Carácter ilegal '"' en línea 54, columna 17
+Carácter ilegal 'P' en línea 54, columna 18
+Carácter ilegal 'r' en línea 54, columna 19
+Carácter ilegal 'e' en línea 54, columna 20
+Carácter ilegal 'c' en línea 54, columna 21
+Carácter ilegal 'i' en línea 54, columna 22
+Carácter ilegal 'o' en línea 54, columna 23
+Carácter ilegal '"' en línea 54, columna 25
+Carácter ilegal 'p' en línea 54, columna 28
+Carácter ilegal 'r' en línea 54, columna 29
+Carácter ilegal 'e' en línea 54, columna 30
+Carácter ilegal 'c' en línea 54, columna 31
+Carácter ilegal 'i' en línea 54, columna 32
+Carácter ilegal 'o' en línea 54, columna 33
+Carácter ilegal 'f' en línea 55, columna 5
+Carácter ilegal 'm' en línea 55, columna 6
+Carácter ilegal 't' en línea 55, columna 7
+Carácter ilegal 'P' en línea 55, columna 9
+Carácter ilegal 'r' en línea 55, columna 10
+Carácter ilegal 'i' en línea 55, columna 11
+Carácter ilegal 'n' en línea 55, columna 12
+Carácter ilegal 't' en línea 55, columna 13
+Carácter ilegal 'l' en línea 55, columna 14
+Carácter ilegal 'n' en línea 55, columna 15
+Carácter ilegal '"' en línea 55, columna 17
+Carácter ilegal 'A' en línea 55, columna 18
+Carácter ilegal 'c' en línea 55, columna 19
+Carácter ilegal 't' en línea 55, columna 20
+Carácter ilegal 'i' en línea 55, columna 21
+Carácter ilegal 'v' en línea 55, columna 22
+Carácter ilegal 'o' en línea 55, columna 23
+Carácter ilegal '"' en línea 55, columna 25
+Carácter ilegal 'a' en línea 55, columna 28
+Carácter ilegal 'c' en línea 55, columna 29
+Carácter ilegal 't' en línea 55, columna 30
+Carácter ilegal 'i' en línea 55, columna 31
+Carácter ilegal 'v' en línea 55, columna 32
+Carácter ilegal 'o' en línea 55, columna 33
+Carácter ilegal 'f' en línea 56, columna 5
+Carácter ilegal 'm' en línea 56, columna 6
+Carácter ilegal 't' en línea 56, columna 7
+Carácter ilegal 'P' en línea 56, columna 9
+Carácter ilegal 'r' en línea 56, columna 10
+Carácter ilegal 'i' en línea 56, columna 11
+Carácter ilegal 'n' en línea 56, columna 12
+Carácter ilegal 't' en línea 56, columna 13
+Carácter ilegal 'l' en línea 56, columna 14
+Carácter ilegal 'n' en línea 56, columna 15
+Carácter ilegal '"' en línea 56, columna 17
+Carácter ilegal 'C' en línea 56, columna 18
+Carácter ilegal 'i' en línea 56, columna 19
+Carácter ilegal 'u' en línea 56, columna 20
+Carácter ilegal 'd' en línea 56, columna 21
+Carácter ilegal 'a' en línea 56, columna 22
+Carácter ilegal 'd' en línea 56, columna 23
+Carácter ilegal '"' en línea 56, columna 25
+Carácter ilegal 'c' en línea 56, columna 28
+Carácter ilegal 'i' en línea 56, columna 29
+Carácter ilegal 'u' en línea 56, columna 30
+Carácter ilegal 'd' en línea 56, columna 31
+Carácter ilegal 'a' en línea 56, columna 32
+Carácter ilegal 'd' en línea 56, columna 33
+Carácter ilegal 'f' en línea 57, columna 5
+Carácter ilegal 'm' en línea 57, columna 6
+Carácter ilegal 't' en línea 57, columna 7
+Carácter ilegal 'P' en línea 57, columna 9
+Carácter ilegal 'r' en línea 57, columna 10
+Carácter ilegal 'i' en línea 57, columna 11
+Carácter ilegal 'n' en línea 57, columna 12
+Carácter ilegal 't' en línea 57, columna 13
+Carácter ilegal 'l' en línea 57, columna 14
+Carácter ilegal 'n' en línea 57, columna 15
+Carácter ilegal '"' en línea 57, columna 17
+Carácter ilegal 'T' en línea 57, columna 18
+Carácter ilegal 'e' en línea 57, columna 19
+Carácter ilegal 'm' en línea 57, columna 20
+Carácter ilegal 'p' en línea 57, columna 21
+Carácter ilegal 'e' en línea 57, columna 22
+Carácter ilegal 'r' en línea 57, columna 23
+Carácter ilegal 'a' en línea 57, columna 24
+Carácter ilegal 't' en línea 57, columna 25
+Carácter ilegal 'u' en línea 57, columna 26
+Carácter ilegal 'r' en línea 57, columna 27
+Carácter ilegal 'a' en línea 57, columna 28
+Carácter ilegal '"' en línea 57, columna 30
+Carácter ilegal 't' en línea 57, columna 33
+Carácter ilegal 'e' en línea 57, columna 34
+Carácter ilegal 'm' en línea 57, columna 35
+Carácter ilegal 'p' en línea 57, columna 36
+Carácter ilegal 'e' en línea 57, columna 37
+Carácter ilegal 'r' en línea 57, columna 38
+Carácter ilegal 'a' en línea 57, columna 39
+Carácter ilegal 't' en línea 57, columna 40
+Carácter ilegal 'u' en línea 57, columna 41
+Carácter ilegal 'r' en línea 57, columna 42
+Carácter ilegal 'a' en línea 57, columna 43
+Carácter ilegal 'f' en línea 58, columna 5
+Carácter ilegal 'm' en línea 58, columna 6
+Carácter ilegal 't' en línea 58, columna 7
+Carácter ilegal 'P' en línea 58, columna 9
+Carácter ilegal 'r' en línea 58, columna 10
+Carácter ilegal 'i' en línea 58, columna 11
+Carácter ilegal 'n' en línea 58, columna 12
+Carácter ilegal 't' en línea 58, columna 13
+Carácter ilegal 'l' en línea 58, columna 14
+Carácter ilegal 'n' en línea 58, columna 15
+Carácter ilegal '"' en línea 58, columna 17
+Carácter ilegal 'C' en línea 58, columna 18
+Carácter ilegal 'o' en línea 58, columna 19
+Carácter ilegal 'n' en línea 58, columna 20
+Carácter ilegal 't' en línea 58, columna 21
+Carácter ilegal 'a' en línea 58, columna 22
+Carácter ilegal 'd' en línea 58, columna 23
+Carácter ilegal 'o' en línea 58, columna 24
+Carácter ilegal 'r' en línea 58, columna 25
+Carácter ilegal '"' en línea 58, columna 27
+Carácter ilegal 'c' en línea 58, columna 30
+Carácter ilegal 'o' en línea 58, columna 31
+Carácter ilegal 'n' en línea 58, columna 32
+Carácter ilegal 't' en línea 58, columna 33
+Carácter ilegal 'a' en línea 58, columna 34
+Carácter ilegal 'd' en línea 58, columna 35
+Carácter ilegal 'o' en línea 58, columna 36
+Carácter ilegal 'r' en línea 58, columna 37
+Carácter ilegal 'f' en línea 59, columna 5
+Carácter ilegal 'm' en línea 59, columna 6
+Carácter ilegal 't' en línea 59, columna 7
+Carácter ilegal 'P' en línea 59, columna 9
+Carácter ilegal 'r' en línea 59, columna 10
+Carácter ilegal 'i' en línea 59, columna 11
+Carácter ilegal 'n' en línea 59, columna 12
+Carácter ilegal 't' en línea 59, columna 13
+Carácter ilegal 'l' en línea 59, columna 14
+Carácter ilegal 'n' en línea 59, columna 15
+Carácter ilegal '"' en línea 59, columna 17
+Carácter ilegal 'M' en línea 59, columna 18
+Carácter ilegal 'e' en línea 59, columna 19
+Carácter ilegal 'n' en línea 59, columna 20
+Carácter ilegal 's' en línea 59, columna 21
+Carácter ilegal 'a' en línea 59, columna 22
+Carácter ilegal 'j' en línea 59, columna 23
+Carácter ilegal 'e' en línea 59, columna 24
+Carácter ilegal '"' en línea 59, columna 26
+Carácter ilegal 'm' en línea 59, columna 29
+Carácter ilegal 'e' en línea 59, columna 30
+Carácter ilegal 'n' en línea 59, columna 31
+Carácter ilegal 's' en línea 59, columna 32
+Carácter ilegal 'a' en línea 59, columna 33
+Carácter ilegal 'j' en línea 59, columna 34
+Carácter ilegal 'e' en línea 59, columna 35
+Carácter ilegal 'f' en línea 60, columna 5
+Carácter ilegal 'm' en línea 60, columna 6
+Carácter ilegal 't' en línea 60, columna 7
+Carácter ilegal 'P' en línea 60, columna 9
+Carácter ilegal 'r' en línea 60, columna 10
+Carácter ilegal 'i' en línea 60, columna 11
+Carácter ilegal 'n' en línea 60, columna 12
+Carácter ilegal 't' en línea 60, columna 13
+Carácter ilegal 'l' en línea 60, columna 14
+Carácter ilegal 'n' en línea 60, columna 15
+Carácter ilegal '"' en línea 60, columna 17
+Carácter ilegal 'R' en línea 60, columna 18
+Carácter ilegal 'e' en línea 60, columna 19
+Carácter ilegal 's' en línea 60, columna 20
+Carácter ilegal 'u' en línea 60, columna 21
+Carácter ilegal 'l' en línea 60, columna 22
+Carácter ilegal 't' en línea 60, columna 23
+Carácter ilegal 'a' en línea 60, columna 24
+Carácter ilegal 'd' en línea 60, columna 25
+Carácter ilegal 'o' en línea 60, columna 26
+Carácter ilegal '"' en línea 60, columna 28
+Carácter ilegal 'r' en línea 60, columna 31
+Carácter ilegal 'e' en línea 60, columna 32
+Carácter ilegal 's' en línea 60, columna 33
+Carácter ilegal 'u' en línea 60, columna 34
+Carácter ilegal 'l' en línea 60, columna 35
+Carácter ilegal 't' en línea 60, columna 36
+Carácter ilegal 'a' en línea 60, columna 37
+Carácter ilegal 'd' en línea 60, columna 38
+Carácter ilegal 'o' en línea 60, columna 39
+Carácter ilegal 'f' en línea 61, columna 5
+Carácter ilegal 'm' en línea 61, columna 6
+Carácter ilegal 't' en línea 61, columna 7
+Carácter ilegal 'P' en línea 61, columna 9
+Carácter ilegal 'r' en línea 61, columna 10
+Carácter ilegal 'i' en línea 61, columna 11
+Carácter ilegal 'n' en línea 61, columna 12
+Carácter ilegal 't' en línea 61, columna 13
+Carácter ilegal 'l' en línea 61, columna 14
+Carácter ilegal 'n' en línea 61, columna 15
+Carácter ilegal '"' en línea 61, columna 17
+Carácter ilegal 'V' en línea 61, columna 18
+Carácter ilegal 'a' en línea 61, columna 19
+Carácter ilegal 'r' en línea 61, columna 20
+Carácter ilegal 'i' en línea 61, columna 21
+Carácter ilegal 'a' en línea 61, columna 22
+Carácter ilegal 'b' en línea 61, columna 23
+Carácter ilegal 'l' en línea 61, columna 24
+Carácter ilegal 'e' en línea 61, columna 25
+Carácter ilegal 's' en línea 61, columna 26
+Carácter ilegal 'm' en línea 61, columna 28
+Carácter ilegal 'ú' en línea 61, columna 29
+Carácter ilegal 'l' en línea 61, columna 30
+Carácter ilegal 't' en línea 61, columna 31
+Carácter ilegal 'i' en línea 61, columna 32
+Carácter ilegal 'p' en línea 61, columna 33
+Carácter ilegal 'l' en línea 61, columna 34
+Carácter ilegal 'e' en línea 61, columna 35
+Carácter ilegal 's' en línea 61, columna 36
+Carácter ilegal '"' en línea 61, columna 38
+Carácter ilegal 'x' en línea 61, columna 41
+Carácter ilegal 'y' en línea 61, columna 44
+Carácter ilegal 'z' en línea 61, columna 47
+Carácter ilegal 'f' en línea 62, columna 5
+Carácter ilegal 'm' en línea 62, columna 6
+Carácter ilegal 't' en línea 62, columna 7
+Carácter ilegal 'P' en línea 62, columna 9
+Carácter ilegal 'r' en línea 62, columna 10
+Carácter ilegal 'i' en línea 62, columna 11
+Carácter ilegal 'n' en línea 62, columna 12
+Carácter ilegal 't' en línea 62, columna 13
+Carácter ilegal 'l' en línea 62, columna 14
+Carácter ilegal 'n' en línea 62, columna 15
+Carácter ilegal '"' en línea 62, columna 17
+Carácter ilegal 'D' en línea 62, columna 18
+Carácter ilegal 'e' en línea 62, columna 19
+Carácter ilegal 'c' en línea 62, columna 20
+Carácter ilegal 'l' en línea 62, columna 21
+Carácter ilegal 'a' en línea 62, columna 22
+Carácter ilegal 'r' en línea 62, columna 23
+Carácter ilegal 'a' en línea 62, columna 24
+Carácter ilegal 'c' en línea 62, columna 25
+Carácter ilegal 'i' en línea 62, columna 26
+Carácter ilegal 'ó' en línea 62, columna 27
+Carácter ilegal 'n' en línea 62, columna 28
+Carácter ilegal 'c' en línea 62, columna 30
+Carácter ilegal 'o' en línea 62, columna 31
+Carácter ilegal 'r' en línea 62, columna 32
+Carácter ilegal 't' en línea 62, columna 33
+Carácter ilegal 'a' en línea 62, columna 34
+Carácter ilegal '"' en línea 62, columna 36
+Carácter ilegal 'a' en línea 62, columna 39
+Carácter ilegal 'b' en línea 62, columna 42
+Carácter ilegal 'c' en línea 62, columna 45
+Carácter ilegal 'f' en línea 63, columna 5
+Carácter ilegal 'm' en línea 63, columna 6
+Carácter ilegal 't' en línea 63, columna 7
+Carácter ilegal 'P' en línea 63, columna 9
+Carácter ilegal 'r' en línea 63, columna 10
+Carácter ilegal 'i' en línea 63, columna 11
+Carácter ilegal 'n' en línea 63, columna 12
+Carácter ilegal 't' en línea 63, columna 13
+Carácter ilegal 'l' en línea 63, columna 14
+Carácter ilegal 'n' en línea 63, columna 15
+Carácter ilegal '"' en línea 63, columna 17
+Carácter ilegal 'N' en línea 63, columna 18
+Carácter ilegal 'o' en línea 63, columna 19
+Carácter ilegal 'm' en línea 63, columna 20
+Carácter ilegal 'b' en línea 63, columna 21
+Carácter ilegal 'r' en línea 63, columna 22
+Carácter ilegal 'e' en línea 63, columna 23
+Carácter ilegal 'c' en línea 63, columna 25
+Carácter ilegal 'o' en línea 63, columna 26
+Carácter ilegal 'm' en línea 63, columna 27
+Carácter ilegal 'p' en línea 63, columna 28
+Carácter ilegal 'l' en línea 63, columna 29
+Carácter ilegal 'e' en línea 63, columna 30
+Carácter ilegal 't' en línea 63, columna 31
+Carácter ilegal 'o' en línea 63, columna 32
+Carácter ilegal '"' en línea 63, columna 34
+Carácter ilegal 'n' en línea 63, columna 37
+Carácter ilegal 'o' en línea 63, columna 38
+Carácter ilegal 'm' en línea 63, columna 39
+Carácter ilegal 'b' en línea 63, columna 40
+Carácter ilegal 'r' en línea 63, columna 41
+Carácter ilegal 'e' en línea 63, columna 42
+Carácter ilegal '_' en línea 63, columna 43
+Carácter ilegal 'c' en línea 63, columna 44
+Carácter ilegal 'o' en línea 63, columna 45
+Carácter ilegal 'm' en línea 63, columna 46
+Carácter ilegal 'p' en línea 63, columna 47
+Carácter ilegal 'l' en línea 63, columna 48
+Carácter ilegal 'e' en línea 63, columna 49
+Carácter ilegal 't' en línea 63, columna 50
+Carácter ilegal 'o' en línea 63, columna 51
+Carácter ilegal 'f' en línea 64, columna 5
+Carácter ilegal 'm' en línea 64, columna 6
+Carácter ilegal 't' en línea 64, columna 7
+Carácter ilegal 'P' en línea 64, columna 9
+Carácter ilegal 'r' en línea 64, columna 10
+Carácter ilegal 'i' en línea 64, columna 11
+Carácter ilegal 'n' en línea 64, columna 12
+Carácter ilegal 't' en línea 64, columna 13
+Carácter ilegal 'l' en línea 64, columna 14
+Carácter ilegal 'n' en línea 64, columna 15
+Carácter ilegal '"' en línea 64, columna 17
+Carácter ilegal 'C' en línea 64, columna 18
+Carácter ilegal 'ó' en línea 64, columna 19
+Carácter ilegal 'd' en línea 64, columna 20
+Carácter ilegal 'i' en línea 64, columna 21
+Carácter ilegal 'g' en línea 64, columna 22
+Carácter ilegal 'o' en línea 64, columna 23
+Carácter ilegal '"' en línea 64, columna 25
+Carácter ilegal 'c' en línea 64, columna 28
+Carácter ilegal 'o' en línea 64, columna 29
+Carácter ilegal 'd' en línea 64, columna 30
+Carácter ilegal 'i' en línea 64, columna 31
+Carácter ilegal 'g' en línea 64, columna 32
+Carácter ilegal 'o' en línea 64, columna 33
+Carácter ilegal 'f' en línea 65, columna 5
+Carácter ilegal 'm' en línea 65, columna 6
+Carácter ilegal 't' en línea 65, columna 7
+Carácter ilegal 'P' en línea 65, columna 9
+Carácter ilegal 'r' en línea 65, columna 10
+Carácter ilegal 'i' en línea 65, columna 11
+Carácter ilegal 'n' en línea 65, columna 12
+Carácter ilegal 't' en línea 65, columna 13
+Carácter ilegal 'l' en línea 65, columna 14
+Carácter ilegal 'n' en línea 65, columna 15
+Carácter ilegal '"' en línea 65, columna 17
+Carácter ilegal 'H' en línea 65, columna 18
+Carácter ilegal 'a' en línea 65, columna 19
+Carácter ilegal 'b' en línea 65, columna 20
+Carácter ilegal 'i' en línea 65, columna 21
+Carácter ilegal 'l' en línea 65, columna 22
+Carácter ilegal 'i' en línea 65, columna 23
+Carácter ilegal 't' en línea 65, columna 24
+Carácter ilegal 'a' en línea 65, columna 25
+Carácter ilegal 'd' en línea 65, columna 26
+Carácter ilegal 'o' en línea 65, columna 27
+Carácter ilegal '"' en línea 65, columna 29
+Carácter ilegal 'h' en línea 65, columna 32
+Carácter ilegal 'a' en línea 65, columna 33
+Carácter ilegal 'b' en línea 65, columna 34
+Carácter ilegal 'i' en línea 65, columna 35
+Carácter ilegal 'l' en línea 65, columna 36
+Carácter ilegal 'i' en línea 65, columna 37
+Carácter ilegal 't' en línea 65, columna 38
+Carácter ilegal 'a' en línea 65, columna 39
+Carácter ilegal 'd' en línea 65, columna 40
+Carácter ilegal 'o' en línea 65, columna 41
+Carácter ilegal 'f' en línea 66, columna 5
+Carácter ilegal 'm' en línea 66, columna 6
+Carácter ilegal 't' en línea 66, columna 7
+Carácter ilegal 'P' en línea 66, columna 9
+Carácter ilegal 'r' en línea 66, columna 10
+Carácter ilegal 'i' en línea 66, columna 11
+Carácter ilegal 'n' en línea 66, columna 12
+Carácter ilegal 't' en línea 66, columna 13
+Carácter ilegal 'l' en línea 66, columna 14
+Carácter ilegal 'n' en línea 66, columna 15
+Carácter ilegal '"' en línea 66, columna 17
+Carácter ilegal 'P' en línea 66, columna 18
+Carácter ilegal 'I' en línea 66, columna 19
+Carácter ilegal '"' en línea 66, columna 21
+Carácter ilegal 'P' en línea 66, columna 24
+Carácter ilegal 'I' en línea 66, columna 25
+Carácter ilegal 'f' en línea 67, columna 5
+Carácter ilegal 'm' en línea 67, columna 6
+Carácter ilegal 't' en línea 67, columna 7
+Carácter ilegal 'P' en línea 67, columna 9
+Carácter ilegal 'r' en línea 67, columna 10
+Carácter ilegal 'i' en línea 67, columna 11
+Carácter ilegal 'n' en línea 67, columna 12
+Carácter ilegal 't' en línea 67, columna 13
+Carácter ilegal 'l' en línea 67, columna 14
+Carácter ilegal 'n' en línea 67, columna 15
+Carácter ilegal '"' en línea 67, columna 17
+Carácter ilegal 'M' en línea 67, columna 18
+Carácter ilegal 'A' en línea 67, columna 19
+Carácter ilegal 'X' en línea 67, columna 20
+Carácter ilegal '_' en línea 67, columna 21
+Carácter ilegal 'U' en línea 67, columna 22
+Carácter ilegal 'S' en línea 67, columna 23
+Carácter ilegal 'U' en línea 67, columna 24
+Carácter ilegal 'A' en línea 67, columna 25
+Carácter ilegal 'R' en línea 67, columna 26
+Carácter ilegal 'I' en línea 67, columna 27
+Carácter ilegal 'O' en línea 67, columna 28
+Carácter ilegal 'S' en línea 67, columna 29
+Carácter ilegal '"' en línea 67, columna 31
+Carácter ilegal 'M' en línea 67, columna 34
+Carácter ilegal 'A' en línea 67, columna 35
+Carácter ilegal 'X' en línea 67, columna 36
+Carácter ilegal '_' en línea 67, columna 37
+Carácter ilegal 'U' en línea 67, columna 38
+Carácter ilegal 'S' en línea 67, columna 39
+Carácter ilegal 'U' en línea 67, columna 40
+Carácter ilegal 'A' en línea 67, columna 41
+Carácter ilegal 'R' en línea 67, columna 42
+Carácter ilegal 'I' en línea 67, columna 43
+Carácter ilegal 'O' en línea 67, columna 44
+Carácter ilegal 'S' en línea 67, columna 45
+Carácter ilegal 'f' en línea 68, columna 5
+Carácter ilegal 'm' en línea 68, columna 6
+Carácter ilegal 't' en línea 68, columna 7
+Carácter ilegal 'P' en línea 68, columna 9
+Carácter ilegal 'r' en línea 68, columna 10
+Carácter ilegal 'i' en línea 68, columna 11
+Carácter ilegal 'n' en línea 68, columna 12
+Carácter ilegal 't' en línea 68, columna 13
+Carácter ilegal 'l' en línea 68, columna 14
+Carácter ilegal 'n' en línea 68, columna 15
+Carácter ilegal '"' en línea 68, columna 17
+Carácter ilegal 'O' en línea 68, columna 18
+Carácter ilegal 'p' en línea 68, columna 19
+Carácter ilegal 'e' en línea 68, columna 20
+Carácter ilegal 'r' en línea 68, columna 21
+Carácter ilegal 'a' en línea 68, columna 22
+Carácter ilegal 'c' en línea 68, columna 23
+Carácter ilegal 'i' en línea 68, columna 24
+Carácter ilegal 'o' en línea 68, columna 25
+Carácter ilegal 'n' en línea 68, columna 26
+Carácter ilegal 'e' en línea 68, columna 27
+Carácter ilegal 's' en línea 68, columna 28
+Carácter ilegal '"' en línea 68, columna 30
+Carácter ilegal 's' en línea 68, columna 33
+Carácter ilegal 'u' en línea 68, columna 34
+Carácter ilegal 'm' en línea 68, columna 35
+Carácter ilegal 'a' en línea 68, columna 36
+Carácter ilegal 'r' en línea 68, columna 39
+Carácter ilegal 'e' en línea 68, columna 40
+Carácter ilegal 's' en línea 68, columna 41
+Carácter ilegal 't' en línea 68, columna 42
+Carácter ilegal 'a' en línea 68, columna 43
+Carácter ilegal 'm' en línea 68, columna 46
+Carácter ilegal 'u' en línea 68, columna 47
+Carácter ilegal 'l' en línea 68, columna 48
+Carácter ilegal 't' en línea 68, columna 49
+Carácter ilegal 'i' en línea 68, columna 50
+Carácter ilegal 'p' en línea 68, columna 51
+Carácter ilegal 'l' en línea 68, columna 52
+Carácter ilegal 'i' en línea 68, columna 53
+Carácter ilegal 'c' en línea 68, columna 54
+Carácter ilegal 'a' en línea 68, columna 55
+Carácter ilegal 'c' en línea 68, columna 56
+Carácter ilegal 'i' en línea 68, columna 57
+Carácter ilegal 'o' en línea 68, columna 58
+Carácter ilegal 'n' en línea 68, columna 59
+Carácter ilegal 'd' en línea 68, columna 62
+Carácter ilegal 'i' en línea 68, columna 63
+Carácter ilegal 'v' en línea 68, columna 64
+Carácter ilegal 'i' en línea 68, columna 65
+Carácter ilegal 's' en línea 68, columna 66
+Carácter ilegal 'i' en línea 68, columna 67
+Carácter ilegal 'o' en línea 68, columna 68
+Carácter ilegal 'n' en línea 68, columna 69
+Carácter ilegal 'm' en línea 68, columna 72
+Carácter ilegal 'o' en línea 68, columna 73
+Carácter ilegal 'd' en línea 68, columna 74
+Carácter ilegal 'u' en línea 68, columna 75
+Carácter ilegal 'l' en línea 68, columna 76
+Carácter ilegal 'o' en línea 68, columna 77
+Carácter ilegal 'f' en línea 71, columna 1
+Carácter ilegal 'u' en línea 71, columna 2
+Carácter ilegal 'n' en línea 71, columna 3
+Carácter ilegal 'c' en línea 71, columna 4
+Carácter ilegal 'c' en línea 71, columna 6
+Carácter ilegal 'a' en línea 71, columna 7
+Carácter ilegal 'l' en línea 71, columna 8
+Carácter ilegal 'c' en línea 71, columna 9
+Carácter ilegal 'u' en línea 71, columna 10
+Carácter ilegal 'l' en línea 71, columna 11
+Carácter ilegal 'a' en línea 71, columna 12
+Carácter ilegal 'r' en línea 71, columna 13
+Carácter ilegal 'x' en línea 71, columna 15
+Carácter ilegal 'i' en línea 71, columna 17
+Carácter ilegal 'n' en línea 71, columna 18
+Carácter ilegal 't' en línea 71, columna 19
+Carácter ilegal 'y' en línea 71, columna 22
+Carácter ilegal 'i' en línea 71, columna 24
+Carácter ilegal 'n' en línea 71, columna 25
+Carácter ilegal 't' en línea 71, columna 26
+Carácter ilegal 'i' en línea 71, columna 29
+Carácter ilegal 'n' en línea 71, columna 30
+Carácter ilegal 't' en línea 71, columna 31
+Carácter ilegal 'r' en línea 72, columna 5
+Carácter ilegal 'e' en línea 72, columna 6
+Carácter ilegal 't' en línea 72, columna 7
+Carácter ilegal 'u' en línea 72, columna 8
+Carácter ilegal 'r' en línea 72, columna 9
+Carácter ilegal 'n' en línea 72, columna 10
+Carácter ilegal 'x' en línea 72, columna 12
+Carácter ilegal 'y' en línea 72, columna 16
+
+================================================================================
+FIN DEL ANÁLISIS
+================================================================================
