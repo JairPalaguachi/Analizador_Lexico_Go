@@ -190,6 +190,50 @@ t_ASSIGN = r'='
 # ============================================================================
 
 # ============================================================================
+# CONTRIBUCIÓN: Leonardo Macías (leodamac)
+# Sección: Tokens Complejos (Literales e Identificadores)
+# ============================================================================
+
+# Literales booleanos
+def t_BOOL_LITERAL(t):
+    r'\b(true|false)\b'
+    return t
+
+# Literales flotantes (deben ir antes que los enteros)
+def t_FLOAT_LITERAL(t):
+    r'\d+\.\d+([eE][+-]?\d+)?|\d+[eE][+-]?\d+'
+    t.value = float(t.value)
+    return t
+
+# Literales enteros
+def t_INT_LITERAL(t):
+    r'\d+'
+    t.value = int(t.value)
+    return t
+
+# Literales de cadena
+def t_STRING_LITERAL(t):
+    r'"([^"\\]|\\.)*"'
+    t.value = t.value[1:-1]  # Remover comillas
+    return t
+
+# Literales de runa (carácter)
+def t_RUNE_LITERAL(t):
+    r"'([^'\\]|\\.)'"
+    return t
+
+# Identificadores y palabras reservadas
+def t_ID(t):
+    r'[a-zA-Z_][a-zA-Z0-9_]*'
+    t.type = reserved.get(t.value, 'ID')
+    return t
+
+# ============================================================================
+# FIN CONTRIBUCIÓN: Leonardo Macías
+# ============================================================================
+
+    
+# ============================================================================
 # CONTRIBUCIÓN COMPARTIDA: Manejo de Comentarios y Espacios
 # ============================================================================
 
