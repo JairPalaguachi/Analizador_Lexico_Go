@@ -123,7 +123,71 @@ tokens = [
 # ============================================================================
 # FIN CONTRIBUCIÓN: Jair Palaguachi
 # ============================================================================
+# ============================================================================
+# CONTRIBUCIÓN: Javier Gutiérrez (SKEIILATT)
+# Sección: Expresiones Regulares para Tokens Simples
+# ============================================================================
 
+# Tokens simples
+t_PLUS = r'\+'
+t_MINUS = r'-'
+t_TIMES = r'\*'
+t_DIVIDE = r'/'
+t_MOD = r'%'
+t_LPAREN = r'\('
+t_RPAREN = r'\)'
+t_LBRACE = r'\{'
+t_RBRACE = r'\}'
+t_LBRACKET = r'\['
+t_RBRACKET = r'\]'
+t_SEMICOLON = r';'
+t_COMMA = r','
+t_DOT = r'\.'
+t_COLON = r':'
+
+# Operadores de comparación
+t_EQ = r'=='
+t_NE = r'!='
+t_LE = r'<='
+t_GE = r'>='
+t_LT = r'<'
+t_GT = r'>'
+
+# Operadores lógicos
+t_AND = r'&&'
+t_OR = r'\|\|'
+t_NOT = r'!'
+
+# Operadores de asignación compuesta
+t_DECLARE_ASSIGN = r':='
+t_PLUS_ASSIGN = r'\+='
+t_MINUS_ASSIGN = r'-='
+t_TIMES_ASSIGN = r'\*='
+t_DIVIDE_ASSIGN = r'/='
+t_MOD_ASSIGN = r'%='
+t_LSHIFT_ASSIGN = r'<<='
+t_RSHIFT_ASSIGN = r'>>='
+
+# Operadores bit a bit
+t_LSHIFT = r'<<'
+t_RSHIFT = r'>>'
+t_AND_NOT = r'&\^'
+t_BITAND = r'&'
+t_BITOR = r'\|'
+t_BITXOR = r'\^'
+
+# Operadores especiales
+t_INCREMENT = r'\+\+'
+t_DECREMENT = r'--'
+t_CHANNEL_OP = r'<-'
+t_ELLIPSIS = r'\.\.\.'
+
+# Asignación simple (debe ir después de los operadores compuestos)
+t_ASSIGN = r'='
+
+# ============================================================================
+# FIN CONTRIBUCIÓN: Javier Gutiérrez
+# ============================================================================
 
 # ============================================================================
 # CONTRIBUCIÓN COMPARTIDA: Manejo de Comentarios y Espacios
