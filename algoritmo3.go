@@ -152,3 +152,19 @@ func sumarTodos(numeros ...int) int {
     }
     return total
 }
+
+func promediar(valores ...float64) float64 {
+    if len(valores) == 0 {
+        return 0.0
+    }
+    suma := 0.0
+    for _, v := range valores {
+        suma += v
+    }
+    return suma / float64(len(valores))
+}
+
+// Función que modifica mediante puntero
+func incrementar(num *int) {
+    *num = *num + 1
+}
