@@ -136,3 +136,19 @@ func dividir(a float64, b float64) (float64, error) {
     }
     return a / b, nil
 }
+
+// Función con retornos nombrados
+func calcularOperaciones(x int, y int) (suma int, producto int) {
+    suma = x + y
+    producto = x * y
+    return  // Return implícito
+}
+
+// Función variádica (acepta número variable de argumentos)
+func sumarTodos(numeros ...int) int {
+    total := 0
+    for _, num := range numeros {
+        total += num
+    }
+    return total
+}
