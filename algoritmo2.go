@@ -1,8 +1,11 @@
 // Algoritmo 2 - Prueba de Estructuras de Control
 // Autor: Javier Gutiérrez (SKEIILATT)
 // Descripción: Este algoritmo prueba condicionales, bucles y switch en Go
+
 package main
+
 import "fmt"
+
 func main() {
     // Variables de prueba
     edad := 25
